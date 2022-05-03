@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bs-fallback.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" media="print" href="nyomtat.css" title="normal">
+    <link rel="alternate stylesheet" href="alternativ.css" title="alt">
+    <script src="szkript.js"></script>
+    <title>Üdvözlő - Szabó Levente honlapja</title>
+</head>
+<body>
+    <a class="skip-main" href="#content-start">
+      Ugrás a tartalomra
+    </a>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+        <button class="navbar-brand rounded" id="toggler-button" onclick="nagybetusToggle()">Nagy mód</button>
+        <a class="navbar-brand d-md-none mx-auto" href="#">Üdvözlő</a>
+        
+        <!--
+          <div id="toggle" class="nav-item nav-link active px-5">
+                <i class="indicator" id="indicator"></i>
+              </div>
+        
+        <script>
+          const body = document.querySelector('body');
+          const toggle = document.getElementById('toggle');
+          toggle.onclick = function(){
+            toggle.classList.toggle('active')
+            body.classList.toggle('active');
+          }
+        </script>
+        -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-item nav-link active px-5" href="index.html">Üdvözlő</a>
+              <a class="nav-item nav-link px-5" href="galeria.html">Galéria</a>
+              <a class="nav-item nav-link px-5" href="arak.html">Árak</a>
+              <a class="nav-item nav-link px-5" href="kapcsolat.html">Kapcsolat</a>
+          </div>
+        </div>
+      </nav>
+      <div class="container-fluid mx-auto my-3">
+        <header>
+        <div class="row my-5 justify-content-center">
+          
+          <div class="col-12"><h1 id="content-start">Üdv az oldalamon!</h1></div>
+        </div>
+        </header>
+
+        <div class="row my-2 justify-content-center align-items-center">
+          <div class="col-12 col-md-6 col-xl-4 col-xxl-4 mx-auto mb-4"><a target=”_blank” href="media/Tajba_fotozos_nagy.jpg"><img src="media/Tajba_fotozos.jpg" class="img-fluid mx-auto d-block" alt="Egy férfi egy hegy tetejéről fotózza a tájat" title="Kattints rám a nagyobb változathoz!"></a></div>
+          <div class="col-12 col-md-6 col-xl-4 col-xxl-3 mx-auto mb-4"><a target=”_blank” href="media/tenisz_nagy.jpg"><img src="media/tenisz.jpg" class="img-fluid mx-auto d-block" alt="A képen egy vizes teniszlabda pörög, spirccelve pörög le róla a víz" title="Kattints rám a nagyobb változathoz!"></a></div>
+          <div class="col-12 col-md-6 col-xl-4 col-xxl-4 mx-auto mb-4"><a target=”_blank” href="media/Halloween_nagy.jpg"><img src="media/Halloween.jpg" class="img-fluid mx-auto d-block" alt="Egy ilyesztő kapucnis, maszkos férfi tart egy töklámpást, amelyből füst ömlik ki." title="Kattints rám a nagyobb változathoz!"></a></div>
+        </div>
+
+        <div class="row my-5 justify-content-center">
+          <div class="col-9">
+            <article>
+              <h2>Bemutatkozom</h2>
+              <section><h3>Kezdetek</h3>A nevem <strong>Szabó Levente</strong>. Nagyjából <strong>5 éve kezdtem</strong> el komolyabban fotózással foglalkozni. Az elején csak egy hobbinak indult, azonban később professzionális keretek között is folytattam fotós pályámat.</section>
+              <section><h3>Weblapom célja</h3>Weblapomon az ez idő alatt készült képeket kívánom bemutatni <em>referenciaként</em>. Ha tetszenek a képeim és szeretnél te is egy alkalomra fotózást rendelni tőlem, ne habozz, <strong>vedd fel a kapcsolatot velem még ma</strong>.</section>
+            </article>
+          </div>
+          
+        </div>
+
+        <div class="row my-2 justify-content-center align-items-center">
+          <div class="col-12 col-md-6 col-xl-4 order-1 mb-4"><img src="media/sziluett.jpg" class="img-fluid mx-auto d-block" alt="Egy fényes ablak előtt áll egy lány, ezáltal csak a sziluettje látszik."></div>
+          <div class="col-12 col-md-6 col-xl-4 order-3 mb-4"><img src="media/auto_ho.jpg" class="img-fluid mx-auto d-block" alt="Egy kék színű autó gurul gyorsan a hóban"></div>
+          <div class="col-12 col-md-6 col-xl-4 order-last order-xl-2"><p class="tovabbi rounded">További képeimet a <a href="galeria.html">Galéria</a> menüpont alatt találod</p></div>
+        </div>
+
+      </div>
+
+      
+      
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+      <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
+</body>
+</html>

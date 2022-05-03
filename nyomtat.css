@@ -1,0 +1,35 @@
+nav.navbar{
+    display: none;
+}
+div.row > .col-xl-4{
+    width: 25%;
+}
+div.row > .col-xl-3{
+    width: 20%;
+}
+.tovabbi{
+    text-align: center;
+    font-size: 1em;
+}
+.col-12#video-column{
+    display: none;
+}
+#korabbi{
+    width: 100%;
+}
+#instagram{
+    width: 100%;
+}
+body{
+    width: 100%;
+    background-color: white;
+    background-image: none;
+}
+.table#tablazat * {
+    background-color: white;
+    color: black;
+}
+
+
+
+

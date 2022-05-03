@@ -1,0 +1,12 @@
+html { 
+    
+    font-size: 1.5rem; 
+} 
+
+body{
+    background-color: white;
+}
+
+div.navbar-nav > a.nav-item.nav-link{
+    color: white;
+}
